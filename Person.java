@@ -5,7 +5,6 @@ class Person {
     private String phone;
     private String email;
     private String address;
-
     // Constructor
     public Person(String personId, String name, String phone, String email, String address) {
         this.personId = personId;
