@@ -21,7 +21,7 @@ public class Bank {
 
         String accountNumber = "ACC" + (1000 + customers.size() + 1);
 
-        BankAccount account;
+        Bankaccount account;
         if (type.equalsIgnoreCase("Savings")) {
             account = new SavingsAccount(accountNumber, name, initialDeposit, pin);
         } else if (type.equalsIgnoreCase("Current")) {
