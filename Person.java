@@ -16,6 +16,13 @@ class Person {
         this.email = email;
         this.address = address;
     }
+    public String getPersonId() { return personId; }
+    public String getName() { return name; }
+    public String getEmail() { return email; }
+    public String getPhone() { return phone; }
+
+    public void setPhone(String phone) { this.phone = phone; }
+    public void setEmail(String email) { this.email = email; }
 
     // Method to display person information
     public void getpersonInfo() {
