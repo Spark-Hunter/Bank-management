@@ -8,7 +8,7 @@ public class Admin extends Person {
     // Constructor
     public Admin(String personId, String name, String email,
                  String phone, String adminLevel, String department, String password) {
-        super(personId, name, email, adress, phone); // calls Person constructor
+        super(personId, name, email, address, phone); // calls Person constructor
         this.adminLevel  = adminLevel;
         this.department  = department;
         this.password    = password;
