@@ -25,7 +25,9 @@ class Person {
         System.out.println("Phone: " + phone);
         System.out.println("Email: " + email);
         System.out.println("Address: " + address);
+  
     }
+    public String getAddress() { return address; }
 
     // Method to update contact information
     public void updateContact(String phone, String email, String address) {
