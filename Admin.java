@@ -7,7 +7,7 @@ public class Admin extends Person {
 
     // Constructor
     public Admin(String personId, String name, String email,
-                 String phone, String adminLevel, String department, String password) {
+                 String phone, String adminLevel, String department, String password, String address) {
         super(personId, name, email, phone, address); // calls Person constructor
         this.adminLevel  = adminLevel;
         this.department  = department;
