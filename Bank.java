@@ -207,7 +207,7 @@ public class Bank {
         System.out.println("Total Staff : " + staffList.size());
         System.out.println("==============================");
         for (Staff s : staffList) {
-            s.displayStaffinfo();
+            s.displayStaffInfo();
             System.out.println("------------------------------");
         }
     }
